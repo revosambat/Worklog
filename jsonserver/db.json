@@ -1,0 +1,112 @@
+{
+  "admin": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin"
+    }
+  ],
+  "employee": [
+    {
+      "id": "1",
+      "username": "sambat123@gmail.com",
+      "password": "sambat123",
+      "firstName": "Sambat",
+      "lastName": "Das",
+      "designation": "Software Devloper",
+      "worklog": []
+    },
+    {
+      "id": "2",
+      "username": "sanjiv123@gmail.com",
+      "password": "sanjiv123",
+      "firstName": "Sanjiv",
+      "lastName": "Bhandari",
+      "designation": "Marketing Officer",
+      "worklog": []
+    },
+    {
+      "id": "3",
+      "username": "surya123@gmail.com",
+      "password": "surya123",
+      "firstName": "Surya",
+      "lastName": "Bhusal",
+      "designation": "Senior Engineer",
+      "worklog": []
+    }
+  ],
+  "worklog": [
+    {
+      "id": 1617875671066,
+      "taskName": "sanjiv ko task",
+      "taskDescription": "sanjiv ko task ko description",
+      "startTime": "01:00",
+      "endTime": "02:00",
+      "employeeId": "2"
+    },
+    {
+      "id": 1617879650189,
+      "taskName": "worklog crud function",
+      "taskDescription": "add functionality and to show on table ",
+      "startTime": "15:55",
+      "endTime": "16:45",
+      "employeeId": "1"
+    },
+    {
+      "id": 1617892114641,
+      "taskName": "surya task 1",
+      "taskDescription": "surya task 1 description",
+      "startTime": "02:00",
+      "endTime": "16:00",
+      "employeeId": "3"
+    },
+    {
+      "id": 1617893756217,
+      "taskName": "task 3",
+      "taskDescription": "task 3 des",
+      "startTime": "02:00",
+      "endTime": "02:04",
+      "employeeId": "3"
+    },
+    {
+      "id": 1617955472361,
+      "taskName": "bar graph for react",
+      "taskDescription": "bar graph to show the working perfomance of employees",
+      "startTime": "13:49",
+      "endTime": "15:00",
+      "employeeId": "1"
+    },
+    {
+      "id": 1617957778309,
+      "taskName": "django code for crud operation",
+      "taskDescription": "add, delete and edit functionality in backend data ",
+      "startTime": "01:00",
+      "endTime": "14:00",
+      "employeeId": "3"
+    },
+    {
+      "id": 1617957941126,
+      "taskName": "bug fixing ",
+      "taskDescription": "bug fixing ",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "employeeId": "3"
+    },
+    {
+      "id": 1617959870551,
+      "taskName": "delete operation",
+      "taskDescription": "delete operation in react axios delete request ",
+      "startTime": "01:00",
+      "endTime": "02:00",
+      "employeeId": "2"
+    },
+    {
+      "id": 1618061336422,
+      "taskName": "finalize the design",
+      "taskDescription": "finalizing by setting margins and other styles",
+      "startTime": "13:00",
+      "endTime": "15:00",
+      "employeeId": "3"
+    }
+  ]
+}
